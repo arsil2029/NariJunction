@@ -134,7 +134,7 @@ font-family: 'Autour One', cursive; */
     z-index: 50000;
 }
 .contect p{
-margin:0;
+margin:0 !important;
     font-size:11px;
 }
 
