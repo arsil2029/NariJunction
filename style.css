@@ -16,33 +16,34 @@ font-family: 'Autour One', cursive; */
     width: 100%;
 }
 .product-real{
-    padding: 20px 0px 20px 0px;
+    padding: 40px 0px 20px 0px;
 }
-.smalllogo{
+.small2{
+    padding: 60px 0px 0px 0px ;
+}
+.small{
     width: 100%;
-    margin:120px 0px 20px 0px;
     padding: 15px 0px;
     background: #82BBB7;
+    
 }
-.smalllogo h1 {
+.small h1 {
     font-size: 19px;
     font-family: 'Autour One', cursive; 
+    color: #fff !important;
    
 }
 .card{
     border: 1px solid #82BBB7 !important;
-    padding: 4px 4px !important;
+    padding: 7px 7px !important;
     border-radius: 8px !important;
 }
-.card .img-box{
-
-    height: 249px;
+.card .img-box{      
     width: 100%;
-
 }
 .card .img-box img{
     border-radius: 6px;
-   
+   object-fit: cover;
     height: 100%;
     width: 100%;
 }
@@ -101,7 +102,7 @@ font-family: 'Autour One', cursive; */
 }
 .offer-image{
     background: url("img/Group\ 93.svg");
-    height: 150px; 
+    height: 115px; 
     background-repeat: no-repeat; 
     background-size: 100% 100%;
     width: 100%; 
@@ -132,10 +133,14 @@ font-family: 'Autour One', cursive; */
     position: fixed;
     bottom: 0;
     z-index: 50000;
+    color: #fff;
 }
-.contect span{
-margin:0 !important;
-    font-size:11px;
+.footter h6{
+    font-size: 12px;
+}
+.last .mb-5{
+    margin-bottom: 4rem!important;
+
 }
 
 
